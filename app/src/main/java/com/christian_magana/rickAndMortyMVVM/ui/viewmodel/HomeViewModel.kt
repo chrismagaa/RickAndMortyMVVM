@@ -5,11 +5,15 @@ import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import com.christian_magana.rickAndMortyMVVM.data.RickAndMortyRepository
 import com.christian_magana.rickAndMortyMVVM.data.model.CharactersResponse
+import dagger.hilt.android.lifecycle.HiltViewModel
 import kotlinx.coroutines.launch
+import javax.inject.Inject
 
-class HomeViewModel : ViewModel() {
+@HiltViewModel
+class HomeViewModel @Inject constructor(
+    private val rickAndMortyRepository: RickAndMortyRepository
+): ViewModel() {
 
-    private val rickAndMortyRepository = RickAndMortyRepository()
 
     private val _charactersLiveData = MutableLiveData<CharactersResponse?>()
     val charactersLiveData: MutableLiveData<CharactersResponse?> = _charactersLiveData

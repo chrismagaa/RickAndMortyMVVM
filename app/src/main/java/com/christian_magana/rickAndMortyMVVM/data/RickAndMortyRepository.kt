@@ -2,9 +2,9 @@ package com.christian_magana.rickAndMortyMVVM.data
 
 import com.christian_magana.rickAndMortyMVVM.data.model.CharactersResponse
 import com.christian_magana.rickAndMortyMVVM.data.remote.RickAndMortyApiClient
+import javax.inject.Inject
 
-class RickAndMortyRepository {
-    private val api = RickAndMortyApiClient()
+class RickAndMortyRepository @Inject constructor(private val api: RickAndMortyApiClient){
 
     suspend fun getCharactersList(
         pageIndex: Int?

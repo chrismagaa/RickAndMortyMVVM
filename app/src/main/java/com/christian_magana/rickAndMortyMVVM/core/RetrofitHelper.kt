@@ -1,7 +1,9 @@
 package com.christian_magana.rickAndMortyMVVM.core
 
+import dagger.Provides
 import retrofit2.Retrofit
 import retrofit2.converter.gson.GsonConverterFactory
+import javax.inject.Singleton
 
 object RetrofitHelper {
 
@@ -11,4 +13,5 @@ object RetrofitHelper {
             .addConverterFactory(GsonConverterFactory.create())
             .build()
     }
+
 }

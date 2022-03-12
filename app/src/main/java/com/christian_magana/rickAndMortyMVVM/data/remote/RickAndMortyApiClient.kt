@@ -4,15 +4,15 @@ import com.christian_magana.rickAndMortyMVVM.core.RetrofitHelper
 import com.christian_magana.rickAndMortyMVVM.data.model.CharactersResponse
 import retrofit2.Response
 import java.lang.Exception
+import javax.inject.Inject
 
-class RickAndMortyApiClient {
+class RickAndMortyApiClient @Inject constructor(private val api:RickAndMortyApiService){
 
-    private val retrofit = RetrofitHelper.getRetrofit()
 
     suspend fun getCharactersPage(
         pageIndex: Int?
     ): SimpleResponse<CharactersResponse> {
-        return safeApiCall {  retrofit.create(RickAndMortyApiService::class.java).getAllCharacters(pageIndex) }
+        return safeApiCall { api.getAllCharacters(pageIndex) }
     }
 
     private inline fun <T> safeApiCall(apiCall: () -> Response<T>): SimpleResponse<T> {

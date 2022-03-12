@@ -14,8 +14,10 @@ import com.christian_magana.rickAndMortyMVVM.common.showToast
 import com.christian_magana.rickAndMortyMVVM.data.model.Character
 import com.christian_magana.rickAndMortyMVVM.databinding.FragmentHomeBinding
 import com.christian_magana.rickAndMortyMVVM.ui.viewmodel.HomeViewModel
+import dagger.hilt.android.AndroidEntryPoint
 import kotlin.properties.Delegates
 
+@AndroidEntryPoint
 class HomeFragment : Fragment() {
 
     private var _binding: FragmentHomeBinding? = null
