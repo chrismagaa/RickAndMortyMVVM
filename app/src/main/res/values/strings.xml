@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Rick And Morty</string>
+    <string name="genered">Gener</string>
+    <string name="status">Status</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="unseccssful_network">Unsuccessful network call!</string>
+</resources>
