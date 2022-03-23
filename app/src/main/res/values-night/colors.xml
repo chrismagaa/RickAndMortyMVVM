@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="primaryColor">#2c3732</color>
+    <color name="secondaryColor">#D301110A</color>
+
+    <color name="ligth">#FFFFFFFF</color>
+    <color name="dark">#F3000000</color>
+
+    <color name="alternative_color">#FF8FFFFF</color>
+
+    <color name="background">#FF000000</color>
+
+    <color name="green_light">#99F531</color>
+    <color name="green_dark">#36951B</color>
+
+    <color name="colorGray">#989898</color>
+</resources>

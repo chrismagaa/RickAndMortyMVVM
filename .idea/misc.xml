@@ -3,13 +3,40 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/christian/AndroidStudioProjects/ExampleMVVM/app/src/main/res/drawable/background_button.xml" value="0.177" />
+        <entry key="..\:/Users/christian/AndroidStudioProjects/ExampleMVVM/app/src/main/res/drawable/background_button_second.xml" value="0.1" />
+        <entry key="..\:/Users/christian/AndroidStudioProjects/ExampleMVVM/app/src/main/res/drawable/background_filter.xml" value="0.1" />
+        <entry key="..\:/Users/christian/AndroidStudioProjects/ExampleMVVM/app/src/main/res/drawable/background_search.xml" value="0.177" />
+        <entry key="..\:/Users/christian/AndroidStudioProjects/ExampleMVVM/app/src/main/res/drawable/bg_character.xml" value="0.22" />
+        <entry key="..\:/Users/christian/AndroidStudioProjects/ExampleMVVM/app/src/main/res/drawable/custom_chip_color.xml" value="0.1" />
+        <entry key="..\:/Users/christian/AndroidStudioProjects/ExampleMVVM/app/src/main/res/drawable/gender_tab_selector.xml" value="0.1" />
+        <entry key="..\:/Users/christian/AndroidStudioProjects/ExampleMVVM/app/src/main/res/drawable/gender_tab_text_color_selector.xml" value="0.1" />
+        <entry key="..\:/Users/christian/AndroidStudioProjects/ExampleMVVM/app/src/main/res/drawable/ic_alive.xml" value="0.22" />
+        <entry key="..\:/Users/christian/AndroidStudioProjects/ExampleMVVM/app/src/main/res/drawable/ic_baseline_dark_mode_24.xml" value="0.245" />
+        <entry key="..\:/Users/christian/AndroidStudioProjects/ExampleMVVM/app/src/main/res/drawable/ic_baseline_local_florist_24.xml" value="0.245" />
+        <entry key="..\:/Users/christian/AndroidStudioProjects/ExampleMVVM/app/src/main/res/drawable/ic_baseline_location_on_24.xml" value="0.177" />
+        <entry key="..\:/Users/christian/AndroidStudioProjects/ExampleMVVM/app/src/main/res/drawable/ic_baseline_search_24.xml" value="0.245" />
+        <entry key="..\:/Users/christian/AndroidStudioProjects/ExampleMVVM/app/src/main/res/drawable/ic_baseline_signal_wifi_statusbar_connected_no_internet_4_24.xml" value="0.22" />
+        <entry key="..\:/Users/christian/AndroidStudioProjects/ExampleMVVM/app/src/main/res/drawable/ic_baseline_tune_24.xml" value="0.177" />
+        <entry key="..\:/Users/christian/AndroidStudioProjects/ExampleMVVM/app/src/main/res/drawable/ic_dashboard_black_24dp.xml" value="0.22" />
+        <entry key="..\:/Users/christian/AndroidStudioProjects/ExampleMVVM/app/src/main/res/drawable/ic_dead.xml" value="0.22" />
+        <entry key="..\:/Users/christian/AndroidStudioProjects/ExampleMVVM/app/src/main/res/drawable/ic_female.xml" value="0.22" />
+        <entry key="..\:/Users/christian/AndroidStudioProjects/ExampleMVVM/app/src/main/res/drawable/ic_genderless.xml" value="0.22" />
+        <entry key="..\:/Users/christian/AndroidStudioProjects/ExampleMVVM/app/src/main/res/drawable/ic_home_black_24dp.xml" value="0.22" />
+        <entry key="..\:/Users/christian/AndroidStudioProjects/ExampleMVVM/app/src/main/res/drawable/ic_launcher_foreground.xml" value="0.22" />
+        <entry key="..\:/Users/christian/AndroidStudioProjects/ExampleMVVM/app/src/main/res/drawable/ic_male.xml" value="0.22" />
+        <entry key="..\:/Users/christian/AndroidStudioProjects/ExampleMVVM/app/src/main/res/drawable/ic_notifications_black_24dp.xml" value="0.22" />
         <entry key="..\:/Users/christian/AndroidStudioProjects/ExampleMVVM/app/src/main/res/drawable/ic_unknown.xml" value="0.1925" />
-        <entry key="..\:/Users/christian/AndroidStudioProjects/ExampleMVVM/app/src/main/res/layout/activity_detail.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/christian/AndroidStudioProjects/ExampleMVVM/app/src/main/res/layout/activity_detail.xml" value="0.4" />
+        <entry key="..\:/Users/christian/AndroidStudioProjects/ExampleMVVM/app/src/main/res/layout/activity_main.xml" value="0.264" />
         <entry key="..\:/Users/christian/AndroidStudioProjects/ExampleMVVM/app/src/main/res/layout/fragment_dashboard.xml" value="0.25416666666666665" />
-        <entry key="..\:/Users/christian/AndroidStudioProjects/ExampleMVVM/app/src/main/res/layout/fragment_home.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/christian/AndroidStudioProjects/ExampleMVVM/app/src/main/res/layout/fragment_detail.xml" value="0.536" />
+        <entry key="..\:/Users/christian/AndroidStudioProjects/ExampleMVVM/app/src/main/res/layout/fragment_filter.xml" value="0.4" />
+        <entry key="..\:/Users/christian/AndroidStudioProjects/ExampleMVVM/app/src/main/res/layout/fragment_home.xml" value="0.4" />
         <entry key="..\:/Users/christian/AndroidStudioProjects/ExampleMVVM/app/src/main/res/layout/fragment_notifications.xml" value="0.25416666666666665" />
-        <entry key="..\:/Users/christian/AndroidStudioProjects/ExampleMVVM/app/src/main/res/layout/item_character.xml" value="0.2578125" />
+        <entry key="..\:/Users/christian/AndroidStudioProjects/ExampleMVVM/app/src/main/res/layout/item_character.xml" value="0.4" />
         <entry key="..\:/Users/christian/AndroidStudioProjects/ExampleMVVM/app/src/main/res/menu/bottom_nav_menu.xml" value="0.1" />
+        <entry key="..\:/Users/christian/AndroidStudioProjects/ExampleMVVM/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.1145" />
       </map>
     </option>
   </component>

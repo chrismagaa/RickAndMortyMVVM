@@ -1,9 +1,16 @@
 <resources>
-    <string name="app_name">Rick And Morty</string>
-    <string name="genered">Gener</string>
-    <string name="status">Status</string>
-    <string name="title_home">Home</string>
-    <string name="title_dashboard">Dashboard</string>
-    <string name="title_notifications">Notifications</string>
+    <string name="app_name">Rick And Morty Characters</string>
     <string name="unseccssful_network">Unsuccessful network call!</string>
+    <string name="hint_search">Search</string>
+    <string name="txt_filters">Filters</string>
+    <string name="txt_gender">Gender</string>
+    <string name="txt_status">Status</string>
+    <string name="txt_name">Name</string>
+    <string name="txt_vivo">Alive</string>
+    <string name="txt_muerto">Dead</string>
+    <string name="txt_desconocido">Unknown</string>
+    <string name="btn_apply">Apply</string>
+    <string name="btn_reset">Reset</string>
+    <string name="txt_origin">Origin</string>
+    <string name="txt_location">Location</string>
 </resources>

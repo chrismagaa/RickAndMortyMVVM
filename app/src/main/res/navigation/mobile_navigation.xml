@@ -7,8 +7,27 @@
 
     <fragment
         android:id="@+id/navigation_home"
-        android:name="com.christian_magana.rickAndMortyMVVM.ui.view.HomeFragment"
-        android:label="@string/title_home"
-        tools:layout="@layout/fragment_home" />
+        android:name="com.christian_magana.rickAndMortyMVVM.ui.home.HomeFragment"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home">
+        <action
+            android:id="@+id/action_navigation_home_to_filterFragment"
+            app:destination="@id/filterFragment" />
+        <action
+            android:id="@+id/action_navigation_home_to_detailFragment"
+            app:destination="@id/detailFragment" />
+    </fragment>
+    <dialog
+        android:id="@+id/filterFragment"
+        android:name="com.christian_magana.rickAndMortyMVVM.ui.filter.FilterFragment"
+        android:label="fragment_filter"
+        tools:layout="@layout/fragment_filter" />
+    <fragment
+        android:id="@+id/detailFragment"
+        android:name="com.christian_magana.rickAndMortyMVVM.ui.detail.DetailFragment"
+        android:label="fragment_detail"
+        tools:layout="@layout/fragment_detail">
+
+    </fragment>
 
 </navigation>
