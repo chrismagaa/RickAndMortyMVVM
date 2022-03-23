@@ -1,4 +1,4 @@
-# Rick An dMorty MVVM
+# Rick And Morty MVVM
 App to consume The Rick and Morty API in kotlin.
 
 ## Descriptio
