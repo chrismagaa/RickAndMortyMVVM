@@ -1,6 +1,7 @@
 package com.christian_magana.rickAndMortyMVVM.data.remote
 
 import com.christian_magana.rickAndMortyMVVM.data.model.CharactersResponse
+import com.christian_magana.rickAndMortyMVVM.data.model.ResponseLocation
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.withContext
 import javax.inject.Inject
@@ -19,6 +20,16 @@ class RickAndMortyApiClient @Inject constructor(private val api:RickAndMortyApiS
             response.body()
         }
     }
+
+    suspend fun getLocation(
+        id: Int?,
+    ): ResponseLocation? {
+        return withContext(Dispatchers.IO){
+            val response = api.getLocation(id)
+            response.body()
+        }
+    }
+
 
 
 

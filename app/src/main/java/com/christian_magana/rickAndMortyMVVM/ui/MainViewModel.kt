@@ -15,7 +15,10 @@ class MainViewModel @Inject constructor(
 
     val currentQuery = MutableLiveData<QueryRAM>()
 
+    val isLoading = MutableLiveData<Boolean>()
+
     init {
+        isLoading.postValue(true)
         searchCharacters(QueryRAM())
     }
 
@@ -24,10 +27,12 @@ class MainViewModel @Inject constructor(
         val status = query.status
         val gender = query.gender
 
+        isLoading.postValue(false)
         rickAndMortyRepository.getCharacters(name, status, gender).cachedIn(viewModelScope)
     }
 
     fun searchCharacters(query: QueryRAM) {
+        isLoading.postValue(true)
         currentQuery.postValue(query)
     }
 

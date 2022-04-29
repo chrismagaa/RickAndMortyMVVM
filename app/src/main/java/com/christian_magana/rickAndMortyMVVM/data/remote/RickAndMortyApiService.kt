@@ -1,8 +1,10 @@
 package com.christian_magana.rickAndMortyMVVM.data.remote
 
 import com.christian_magana.rickAndMortyMVVM.data.model.CharactersResponse
+import com.christian_magana.rickAndMortyMVVM.data.model.ResponseLocation
 import retrofit2.Response
 import retrofit2.http.GET
+import retrofit2.http.Path
 import retrofit2.http.Query
 
 interface RickAndMortyApiService {
@@ -13,6 +15,12 @@ interface RickAndMortyApiService {
         @Query("status") status: String? = null,
         @Query("gender") gender: String? = null,
     ): Response<CharactersResponse>
+
+
+    @GET("location/{id}")
+    suspend fun getLocation(
+        @Path("id") id: Int? = null
+    ): Response<ResponseLocation>
 
 
 

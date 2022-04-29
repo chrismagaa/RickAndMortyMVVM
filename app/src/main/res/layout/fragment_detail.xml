@@ -139,19 +139,22 @@
                 android:id="@+id/tvGenderValue"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:text="Male"
                 android:textStyle="bold"
                 app:layout_constraintEnd_toEndOf="@+id/tvGenered"
                 app:layout_constraintStart_toStartOf="@+id/tvGenered"
-                app:layout_constraintTop_toBottomOf="@+id/tvGenered" />
+                app:layout_constraintTop_toBottomOf="@+id/imageView" />
 
             <TextView
                 android:id="@+id/tvStateValue"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:text="Dead"
                 android:textStyle="bold"
-                app:layout_constraintEnd_toEndOf="@+id/tvStatus"
-                app:layout_constraintStart_toStartOf="@+id/tvStatus"
-                app:layout_constraintTop_toBottomOf="@+id/tvStatus" />
+                app:layout_constraintEnd_toEndOf="@+id/imageView2"
+                app:layout_constraintHorizontal_bias="0.45"
+                app:layout_constraintStart_toStartOf="@+id/imageView2"
+                app:layout_constraintTop_toBottomOf="@+id/imageView2" />
 
             <androidx.cardview.widget.CardView
                 android:id="@+id/cvLocation"
@@ -237,6 +240,28 @@
                 android:text="@string/txt_origin"
                 app:layout_constraintBottom_toTopOf="@+id/cardView2"
                 app:layout_constraintStart_toStartOf="@+id/cardView2" />
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="2dp"
+                android:background="@drawable/background_icons"
+                android:backgroundTintMode="src_over"
+                app:layout_constraintEnd_toEndOf="@+id/tvGenered"
+                app:layout_constraintStart_toStartOf="@+id/tvGenered"
+                app:layout_constraintTop_toBottomOf="@+id/tvGenered" />
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="2dp"
+                android:background="@drawable/background_icons"
+                android:paddingTop="6dp"
+                app:layout_constraintEnd_toEndOf="@+id/tvStatus"
+                app:layout_constraintStart_toStartOf="@+id/tvStatus"
+                app:layout_constraintTop_toBottomOf="@+id/tvStatus" />
 
         </androidx.constraintlayout.widget.ConstraintLayout>
     </ScrollView>

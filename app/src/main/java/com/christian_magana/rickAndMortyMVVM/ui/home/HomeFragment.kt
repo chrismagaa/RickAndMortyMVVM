@@ -73,8 +73,8 @@ class HomeFragment : Fragment() {
             if(characterList != null){
                 adapter.submitData(viewLifecycleOwner.lifecycle, characterList)
             }else{
-                binding.ivNotWifi.visibility = View.VISIBLE
-                Toast.makeText(requireContext(), getString(R.string.unseccssful_network), Toast.LENGTH_SHORT).show()
+                binding.ivVoid.visibility = View.VISIBLE
+                binding.rvCharacters.visibility = View.GONE
             }
         })
 
@@ -87,6 +87,16 @@ class HomeFragment : Fragment() {
                 if(queryRAM.gender.isNotBlank()) addChild("${getString(R.string.txt_gender)}: ${queryRAM.gender}")
                 if(queryRAM.status.isNotBlank()) addChild("${getString(R.string.txt_status)}: ${queryRAM.status}")
 
+            }
+        }
+
+        mainViewModel.isLoading.observe(viewLifecycleOwner){isLoaging ->
+            if(isLoaging){
+                binding.progress.visibility = View.VISIBLE
+                binding.rvCharacters.visibility = View.GONE
+            }else{
+                binding.progress.visibility = View.GONE
+                binding.rvCharacters.visibility = View.VISIBLE
             }
         }
     }

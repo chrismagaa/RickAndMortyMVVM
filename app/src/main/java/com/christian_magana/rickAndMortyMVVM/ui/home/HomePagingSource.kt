@@ -30,8 +30,10 @@ class HomePagingSource(
             )
 
         }catch (e: Exception){
+            Log.d("HOLA","Error Exception", e)
             LoadResult.Error(e)
         }catch (exception: HttpException) {
+            Log.d("HOLA","Error HTTP", exception)
             LoadResult.Error(exception)
         }
     }
