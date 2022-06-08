@@ -19,4 +19,5 @@ App to consume The Rick and Morty API in kotlin.
 * Architecture
    *MVVM
    
-
+Download it 
+https://play.google.com/store/apps/details?id=com.christian_magana.rickAndMortyMVVM
