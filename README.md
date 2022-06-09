@@ -1,23 +1,25 @@
 # Rick And Morty MVVM
 App to consume The Rick and Morty API in kotlin.
 
-## Descriptio
-
-* UI 
-   * [Material design](https://material.io/design)
-
+## Description
 
 * Tech/Tools
-   * Kotlin
-   * Coroutines
-   * LiveData and ViewModel
-   * Hilt
-   * Coil 
-   * Retrofit
-   * Paging 3
+   - Kotlin
+   - Coroutines
+   - LiveData and ViewModel
+   - Hilt
+   - Coil 
+   - Retrofit
+   - Paging 3
 
 * Architecture
-   *MVVM
-   
+   - MVVM
+
+##Preview
+
+![preview1](https://github.com/chrismagaa/RickAndMortyMVVM/blob/master/preview_1.jpeg)
+![preview2](https://github.com/chrismagaa/RickAndMortyMVVM/blob/master/preview_2.jpeg)
+![preview3](https://github.com/chrismagaa/RickAndMortyMVVM/blob/master/preview_3.jpeg)
+
 Download it 
 https://play.google.com/store/apps/details?id=com.christian_magana.rickAndMortyMVVM
