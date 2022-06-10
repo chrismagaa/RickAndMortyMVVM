@@ -15,7 +15,7 @@ App to consume The Rick and Morty API in kotlin.
 * Architecture
    - MVVM
 
-##Preview
+## Preview
 
 ![preview1](https://github.com/chrismagaa/RickAndMortyMVVM/blob/master/preview.png)
 
