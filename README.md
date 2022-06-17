@@ -3,20 +3,20 @@ App to consume The Rick and Morty API in kotlin.
 
 ## Description
 
-* Tech/Tools
+* Tech stack & Open-source libraries
    - Kotlin
-   - Coroutines
-   - LiveData and ViewModel
-   - Hilt
-   - Coil 
-   - Retrofit
-   - Paging 3
+   - Hilt for dependency injection.
+   - Coil - Loading images from network.
+   - Retrofit - Construct the REST APIs.
+   - Paging 3 - Load and display pages of data from a larger dataset
 
 * Architecture
-   - MVVM
+   - MVVM Architecture (View - DataBinding - ViewModel - Model)
 
-## Preview
+## Screenshots
 
 ![preview1](https://github.com/chrismagaa/RickAndMortyMVVM/blob/master/preview.png)
 
+## Open API
 
+Rick and Morty MVVM using the [The Rick and Morty API](https://rickandmortyapi.com/) for constructing RESTful API
