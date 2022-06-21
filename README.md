@@ -5,13 +5,13 @@ App to consume The Rick and Morty API in kotlin.
 
 * Tech stack & Open-source libraries
    - Kotlin
-   - Hilt for dependency injection.
-   - Coil - Loading images from network.
-   - Retrofit - Construct the REST APIs.
+   - [Hilt](https://dagger.dev/hilt/) for dependency injection.
+   - [Coil](https://github.com/coil-kt/coil) - Loading images from network.
+   - [Retrofit2](https://github.com/square/retrofit) - Construct the REST APIs.
    - Paging 3 - Load and display pages of data from a larger dataset
 
 * Architecture
-   - MVVM Architecture (View - DataBinding - ViewModel - Model)
+   - MVVM Architecture (View - ViewModel - Model)
 
 ## Screenshots
 
