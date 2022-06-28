@@ -7,7 +7,7 @@ import coil.transform.CircleCropTransformation
 import com.christian_magana.rickAndMortyMVVM.data.model.Character
 import com.christian_magana.rickAndMortyMVVM.databinding.ItemCharacterBinding
 
-class CharacterViewHolder(private val view: View): RecyclerView.ViewHolder(view) {
+class CharacterViewHolder(view: View): RecyclerView.ViewHolder(view) {
     val binding = ItemCharacterBinding.bind(view)
 
     fun render(character: Character, onClickListner: (Character) -> Unit){

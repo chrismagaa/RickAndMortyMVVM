@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Rick And Morty Characters</string>
+    <string name="app_name">Rick And Morty Data</string>
     <string name="unseccssful_network">Unsuccessful network call!</string>
     <string name="hint_search">Search</string>
     <string name="txt_filters">Filters</string>
@@ -13,4 +13,9 @@
     <string name="btn_reset">Reset</string>
     <string name="txt_origin">Origin</string>
     <string name="txt_location">Location</string>
+    <string name="txt_specie">Specie</string>
+
+    <string name="rick">Rick And Morty </string>
+    <string name="morty">Rick And Morty </string>
+    <string name="rick_and_morty">Rick And Morty </string>
 </resources>

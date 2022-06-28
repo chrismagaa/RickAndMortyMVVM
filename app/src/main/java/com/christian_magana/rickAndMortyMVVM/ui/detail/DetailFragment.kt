@@ -7,17 +7,16 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.navigation.fragment.findNavController
-import androidx.navigation.fragment.navArgs
 import coil.load
 import com.christian_magana.rickAndMortyMVVM.R
 import com.christian_magana.rickAndMortyMVVM.data.model.Character
-import com.christian_magana.rickAndMortyMVVM.databinding.FragmentDetailBinding
+import com.christian_magana.rickAndMortyMVVM.databinding.FramgmentCharacterDetailBinding
 
 
 class DetailFragment : Fragment() {
 
 
-    private var _binding: FragmentDetailBinding? = null
+    private var _binding: FramgmentCharacterDetailBinding? = null
      val binding get() = _binding!!
 
     private lateinit var character: Character
@@ -33,7 +32,7 @@ class DetailFragment : Fragment() {
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
-        _binding = FragmentDetailBinding.inflate(inflater, container, false)
+        _binding = FramgmentCharacterDetailBinding.inflate(inflater, container, false)
 
         return binding.root
     }
@@ -43,7 +42,7 @@ class DetailFragment : Fragment() {
         super.onViewCreated(view, savedInstanceState)
 
 
-        binding.tvId.text = "#${character.id}"
+      //  binding.tvId.text = "#${character.id}"
         binding.tvStateValue.text = character.status
         binding.ivCharacter.load(character.image)
         binding.tvName.text = character.name

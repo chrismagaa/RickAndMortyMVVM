@@ -1,6 +1,6 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
     <!-- Base application theme. -->
-    <style name="Theme.RickAndMortyMVVM" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+    <style name="Theme.RickAndMortyMVVM" parent="Theme.Material3.DayNight.NoActionBar">
         <item name="colorSurface">@color/ligth</item>
         <item name="colorOnSurface">@color/dark</item>
         <item name="android:colorBackground">@color/ligth</item>
@@ -32,6 +32,12 @@
     <style name="BottomSheetStyle" parent="Widget.Design.BottomSheet.Modal">
         <item name="android:background">@drawable/background_filter</item>
     </style>
+
+    <style name="SplashScreen" parent="Theme.RickAndMortyMVVM">
+        <item name="android:windowBackground">@drawable/splashscreen</item>
+    </style>
+
+
 
 
 </resources>

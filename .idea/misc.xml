@@ -16,10 +16,14 @@
         <entry key="..\:/Users/christian/AndroidStudioProjects/ExampleMVVM/app/src/main/res/drawable/ic_alive_icon.xml" value="0.116" />
         <entry key="..\:/Users/christian/AndroidStudioProjects/ExampleMVVM/app/src/main/res/drawable/ic_baseline_arrow_back_24.xml" value="0.255" />
         <entry key="..\:/Users/christian/AndroidStudioProjects/ExampleMVVM/app/src/main/res/drawable/ic_baseline_dark_mode_24.xml" value="0.245" />
+        <entry key="..\:/Users/christian/AndroidStudioProjects/ExampleMVVM/app/src/main/res/drawable/ic_baseline_female_24.xml" value="0.198" />
         <entry key="..\:/Users/christian/AndroidStudioProjects/ExampleMVVM/app/src/main/res/drawable/ic_baseline_local_florist_24.xml" value="0.245" />
         <entry key="..\:/Users/christian/AndroidStudioProjects/ExampleMVVM/app/src/main/res/drawable/ic_baseline_location_on_24.xml" value="0.177" />
+        <entry key="..\:/Users/christian/AndroidStudioProjects/ExampleMVVM/app/src/main/res/drawable/ic_baseline_male_24.xml" value="0.198" />
+        <entry key="..\:/Users/christian/AndroidStudioProjects/ExampleMVVM/app/src/main/res/drawable/ic_baseline_question_mark_24.xml" value="0.198" />
         <entry key="..\:/Users/christian/AndroidStudioProjects/ExampleMVVM/app/src/main/res/drawable/ic_baseline_search_24.xml" value="0.245" />
         <entry key="..\:/Users/christian/AndroidStudioProjects/ExampleMVVM/app/src/main/res/drawable/ic_baseline_signal_wifi_statusbar_connected_no_internet_4_24.xml" value="0.22" />
+        <entry key="..\:/Users/christian/AndroidStudioProjects/ExampleMVVM/app/src/main/res/drawable/ic_baseline_transgender_24.xml" value="0.198" />
         <entry key="..\:/Users/christian/AndroidStudioProjects/ExampleMVVM/app/src/main/res/drawable/ic_baseline_tune_24.xml" value="0.177" />
         <entry key="..\:/Users/christian/AndroidStudioProjects/ExampleMVVM/app/src/main/res/drawable/ic_dashboard_black_24dp.xml" value="0.22" />
         <entry key="..\:/Users/christian/AndroidStudioProjects/ExampleMVVM/app/src/main/res/drawable/ic_dead.xml" value="0.22" />
@@ -36,16 +40,19 @@
         <entry key="..\:/Users/christian/AndroidStudioProjects/ExampleMVVM/app/src/main/res/drawable/ic_unknown.xml" value="0.1925" />
         <entry key="..\:/Users/christian/AndroidStudioProjects/ExampleMVVM/app/src/main/res/drawable/ic_unknown_icon.xml" value="0.256" />
         <entry key="..\:/Users/christian/AndroidStudioProjects/ExampleMVVM/app/src/main/res/drawable/ic_void_icon.xml" value="0.116" />
+        <entry key="..\:/Users/christian/AndroidStudioProjects/ExampleMVVM/app/src/main/res/drawable/splashscreen.xml" value="0.198" />
         <entry key="..\:/Users/christian/AndroidStudioProjects/ExampleMVVM/app/src/main/res/layout/activity_detail.xml" value="0.4" />
         <entry key="..\:/Users/christian/AndroidStudioProjects/ExampleMVVM/app/src/main/res/layout/activity_main.xml" value="0.264" />
         <entry key="..\:/Users/christian/AndroidStudioProjects/ExampleMVVM/app/src/main/res/layout/fragment_dashboard.xml" value="0.25416666666666665" />
-        <entry key="..\:/Users/christian/AndroidStudioProjects/ExampleMVVM/app/src/main/res/layout/fragment_detail.xml" value="0.4" />
+        <entry key="..\:/Users/christian/AndroidStudioProjects/ExampleMVVM/app/src/main/res/layout/fragment_detail.xml" value="0.536" />
         <entry key="..\:/Users/christian/AndroidStudioProjects/ExampleMVVM/app/src/main/res/layout/fragment_filter.xml" value="0.4" />
-        <entry key="..\:/Users/christian/AndroidStudioProjects/ExampleMVVM/app/src/main/res/layout/fragment_home.xml" value="0.264" />
+        <entry key="..\:/Users/christian/AndroidStudioProjects/ExampleMVVM/app/src/main/res/layout/fragment_home.xml" value="0.16799999999999998" />
         <entry key="..\:/Users/christian/AndroidStudioProjects/ExampleMVVM/app/src/main/res/layout/fragment_notifications.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/christian/AndroidStudioProjects/ExampleMVVM/app/src/main/res/layout/framgment_character_detail.xml" value="0.264" />
         <entry key="..\:/Users/christian/AndroidStudioProjects/ExampleMVVM/app/src/main/res/layout/item_character.xml" value="0.4" />
         <entry key="..\:/Users/christian/AndroidStudioProjects/ExampleMVVM/app/src/main/res/menu/bottom_nav_menu.xml" value="0.1" />
         <entry key="..\:/Users/christian/AndroidStudioProjects/ExampleMVVM/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.1145" />
+        <entry key="..\:/Users/christian/AndroidStudioProjects/ExampleMVVM/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.198" />
       </map>
     </option>
   </component>

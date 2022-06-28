@@ -28,6 +28,10 @@
     <item name="bottomSheetStyle">@style/BottomSheetStyle</item>
 </style>
 
+    <style name="SplashScreen" parent="Theme.RickAndMortyMVVM">
+        <item name="android:windowBackground">@drawable/splashscreen</item>
+    </style>
+
     <style name="BottomSheetStyle" parent="Widget.Design.BottomSheet.Modal">
         <item name="android:background">@drawable/background_filter</item>
     </style>
