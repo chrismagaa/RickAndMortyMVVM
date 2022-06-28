@@ -20,3 +20,7 @@ App to consume The Rick and Morty API in kotlin.
 ## Open API
 
 Rick and Morty MVVM using the [The Rick and Morty API](https://rickandmortyapi.com/) for constructing RESTful API
+
+## Download
+
+Download App APK [here](https://github.com/chrismagaa/RickAndMortyMVVM/raw/master/app/debug/app-debug.apk)
